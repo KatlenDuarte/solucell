@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --cor-laranjada: #fd7b06;
+    --cor-azul: #3045c5;
+}
+body {
+    background-color: rgb(241, 232, 232);
+}
+.icon {
+    transition: all .5s ease;
+}
+.icon:hover {
+    background-color: transparent;
+    color: #fd7b06;
+}
+.home__container a {
+    transition: all .5s ease;
+}
+.home__container a:hover {
+    background-color: transparent;
+    color: #fd7b06;
+}
+.sociais__container a {
+    text-decoration: none;
+}
